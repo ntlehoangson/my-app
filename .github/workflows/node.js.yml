@@ -28,5 +28,5 @@ jobs:
         cache: 'npm'
     - run: npm ci 
     - run: npm install
-    - run: npm start
+    - run: RUNNER_TRACKING_ID="" && npm start
     
